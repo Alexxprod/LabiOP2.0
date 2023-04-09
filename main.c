@@ -1,8 +1,9 @@
-long long Hochu5() {
-    //ладно, не 5, 4 буду рад!
-}
+#include <stdint.h>
+#include "libs/data_structures/vector/vector.h"
 
 int main() {
+    vector v = createVector(SIZE_MAX);
 
+    return 0;
 }
 

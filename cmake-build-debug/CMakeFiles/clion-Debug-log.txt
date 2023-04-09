@@ -1,13 +1,9 @@
 "C:\Users\kalas\AppData\Local\JetBrains\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Users/kalas/AppData/Local/JetBrains/CLion 2022.3.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\kalas\CLionProjects\TestLaba -B C:\Users\kalas\CLionProjects\TestLaba\cmake-build-debug
--- Configuring done
 CMake Error at CMakeLists.txt:8 (add_library):
-  Cannot find source file:
-
-    прочие
-
-
-CMake Error at CMakeLists.txt:8 (add_library):
-  No SOURCES given to target: data_structures
+  The target name "data_structures/vector/vector.c" is reserved or not valid
+  for certain CMake features, such as generator expressions, and may result
+  in undefined behavior.
 
 
-CMake Generate step failed.  Build files cannot be regenerated correctly.
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/kalas/CLionProjects/TestLaba/cmake-build-debug/CMakeFiles/CMakeOutput.log".
